@@ -1,0 +1,12 @@
+# ipython shell cache
+__pycache__/
+
+# PyCharm project data
+.idea/
+
+# Virtual environment (can be reconstructed on target machine from `requirements.txt`)
+venv/
+
+# Sensitive data
+users/
+secret.py
