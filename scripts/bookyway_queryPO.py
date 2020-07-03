@@ -14,7 +14,7 @@ class BookywayQuery:
         field_query = self.browser.find_element_by_css_selector(conf.SELECTOR_ACCOUNTS_QUERYTEXT)
         button_query_confirm = self.browser.find_element_by_css_selector(conf.SELECTOR_ACCOUNTS_QUERYSUBMIT)
 
-        if query is not None:
+        if query is not None and len(query) > 0:
             field_query.send_keys(query)
             button_query_confirm.click()
             time.sleep(conf.SLEEP_QUERY)

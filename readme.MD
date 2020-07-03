@@ -19,3 +19,4 @@ Run `main.py` from command line. Argoments are as follows:
 ### Notes
 * An incomplete username can select multiple persons; e.g. *"dav"* can select both *"Dave"* and *"David"*.
   * This feature also works with usernames.
+* An empty username will select **everyone**.
